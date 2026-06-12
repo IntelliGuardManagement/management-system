@@ -1,0 +1,58 @@
+const common = {
+  app: {
+    name: 'Management System',
+    description: 'Enterprise Management System',
+  },
+  menu: {
+    dashboard: 'Dashboard',
+    system: 'System',
+    user: 'User Management',
+    role: 'Role Management',
+    logout: 'Logout',
+  },
+  common: {
+    loading: 'Loading...',
+    save: 'Save',
+    cancel: 'Cancel',
+    confirm: 'Confirm',
+    delete: 'Delete',
+    edit: 'Edit',
+    create: 'Create',
+    search: 'Search',
+    reset: 'Reset',
+    export: 'Export',
+    action: 'Actions',
+    status: 'Status',
+    enabled: 'Enabled',
+    disabled: 'Disabled',
+    createdAt: 'Created At',
+    updatedAt: 'Updated At',
+    noData: 'No Data',
+    pageNotFound: 'Page Not Found',
+    backHome: 'Back to Home',
+  },
+  login: {
+    title: 'Login',
+    username: 'Username',
+    password: 'Password',
+    rememberMe: 'Remember Me',
+    submit: 'Sign In',
+    submitting: 'Signing in...',
+    usernamePlaceholder: 'Please enter username',
+    passwordPlaceholder: 'Please enter password',
+    success: 'Login successful',
+    failed: 'Login failed',
+    invalidCredentials: 'Invalid username or password',
+  },
+  dashboard: {
+    welcome: 'Welcome back',
+    stats: {
+      totalUsers: 'Total Users',
+      activeUsers: 'Active Users',
+      newToday: 'New Today',
+      systemHealth: 'System Health',
+    },
+  },
+}
+
+export default common

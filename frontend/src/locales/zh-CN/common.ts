@@ -1,0 +1,58 @@
+const common = {
+  app: {
+    name: '管理系统',
+    description: '企业级后台管理系统',
+  },
+  menu: {
+    dashboard: '仪表盘',
+    system: '系统管理',
+    user: '用户管理',
+    role: '角色管理',
+    logout: '退出登录',
+  },
+  common: {
+    loading: '加载中...',
+    save: '保存',
+    cancel: '取消',
+    confirm: '确认',
+    delete: '删除',
+    edit: '编辑',
+    create: '新增',
+    search: '搜索',
+    reset: '重置',
+    export: '导出',
+    action: '操作',
+    status: '状态',
+    enabled: '启用',
+    disabled: '禁用',
+    createdAt: '创建时间',
+    updatedAt: '更新时间',
+    noData: '暂无数据',
+    pageNotFound: '页面不存在',
+    backHome: '返回首页',
+  },
+  login: {
+    title: '登录',
+    username: '用户名',
+    password: '密码',
+    rememberMe: '记住我',
+    submit: '登 录',
+    submitting: '登录中...',
+    usernamePlaceholder: '请输入用户名',
+    passwordPlaceholder: '请输入密码',
+    success: '登录成功',
+    failed: '登录失败',
+    invalidCredentials: '用户名或密码错误',
+  },
+  dashboard: {
+    welcome: '欢迎回来',
+    stats: {
+      totalUsers: '总用户数',
+      activeUsers: '活跃用户',
+      newToday: '今日新增',
+      systemHealth: '系统状态',
+    },
+  },
+}
+
+export default common
