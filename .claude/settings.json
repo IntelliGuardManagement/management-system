@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash: npm *",
+      "Bash: pnpm *",
+      "Bash: yarn *",
+      "Bash: git *",
+      "Bash: node *",
+      "Bash: npx *",
+      "Bash: python *",
+      "Bash: pip *"
+    ]
+  }
+}
